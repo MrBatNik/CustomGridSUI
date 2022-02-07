@@ -11,6 +11,12 @@
 		1BEE9E5627B03247006BDE38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9E5527B03247006BDE38 /* ContentView.swift */; };
 		1BEE9E5827B03248006BDE38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEE9E5727B03248006BDE38 /* Assets.xcassets */; };
 		1BEE9E5B27B03248006BDE38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEE9E5A27B03248006BDE38 /* Preview Assets.xcassets */; };
+		1BEE9E6427B03C0A006BDE38 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9E6327B03C0A006BDE38 /* AwardsView.swift */; };
+		1BEE9E6627B03C24006BDE38 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9E6527B03C24006BDE38 /* GradientRectangles.swift */; };
+		1BEE9E6827B03F03006BDE38 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9E6727B03F03006BDE38 /* PathView.swift */; };
+		1BEE9E6A27B04440006BDE38 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9E6927B04440006BDE38 /* CurvesView.swift */; };
+		1BEE9E6C27B04801006BDE38 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9E6B27B04801006BDE38 /* MainView.swift */; };
+		1BEE9E6E27B166EA006BDE38 /* SunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9E6D27B166EA006BDE38 /* SunView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		1BEE9E5527B03247006BDE38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1BEE9E5727B03248006BDE38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BEE9E5A27B03248006BDE38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1BEE9E6327B03C0A006BDE38 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		1BEE9E6527B03C24006BDE38 /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		1BEE9E6727B03F03006BDE38 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		1BEE9E6927B04440006BDE38 /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		1BEE9E6B27B04801006BDE38 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1BEE9E6D27B166EA006BDE38 /* SunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				1BEE9E5327B03247006BDE38 /* Lesson_6SwiftUIApp.swift */,
 				1BEE9E5527B03247006BDE38 /* ContentView.swift */,
+				1BEE9E6B27B04801006BDE38 /* MainView.swift */,
+				1BEE9E6327B03C0A006BDE38 /* AwardsView.swift */,
+				1BEE9E6527B03C24006BDE38 /* GradientRectangles.swift */,
+				1BEE9E6727B03F03006BDE38 /* PathView.swift */,
+				1BEE9E6927B04440006BDE38 /* CurvesView.swift */,
+				1BEE9E6D27B166EA006BDE38 /* SunView.swift */,
 				1BEE9E5727B03248006BDE38 /* Assets.xcassets */,
 				1BEE9E5927B03248006BDE38 /* Preview Content */,
 			);
@@ -137,6 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BEE9E6A27B04440006BDE38 /* CurvesView.swift in Sources */,
+				1BEE9E6E27B166EA006BDE38 /* SunView.swift in Sources */,
+				1BEE9E6C27B04801006BDE38 /* MainView.swift in Sources */,
+				1BEE9E6827B03F03006BDE38 /* PathView.swift in Sources */,
+				1BEE9E6427B03C0A006BDE38 /* AwardsView.swift in Sources */,
+				1BEE9E6627B03C24006BDE38 /* GradientRectangles.swift in Sources */,
 				1BEE9E5627B03247006BDE38 /* ContentView.swift in Sources */,
 				1BEE9E5427B03247006BDE38 /* Lesson_6SwiftUIApp.swift in Sources */,
 			);
