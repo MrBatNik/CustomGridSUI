@@ -1,6 +1,6 @@
 //
 //  SunView.swift
-//  Lesson#6SwiftUI
+//  CustomGridSUI
 //
 //  Created by Nikita Batrakov on 07.02.2022.
 //

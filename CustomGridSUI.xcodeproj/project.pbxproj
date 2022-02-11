@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BEE9E5427B03247006BDE38 /* Lesson_6SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9E5327B03247006BDE38 /* Lesson_6SwiftUIApp.swift */; };
+		1BEE9E5427B03247006BDE38 /* CustomGridSUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9E5327B03247006BDE38 /* CustomGridSUI.swift */; };
 		1BEE9E5627B03247006BDE38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9E5527B03247006BDE38 /* ContentView.swift */; };
 		1BEE9E5827B03248006BDE38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEE9E5727B03248006BDE38 /* Assets.xcassets */; };
 		1BEE9E5B27B03248006BDE38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEE9E5A27B03248006BDE38 /* Preview Assets.xcassets */; };
@@ -17,11 +17,15 @@
 		1BEE9E6A27B04440006BDE38 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9E6927B04440006BDE38 /* CurvesView.swift */; };
 		1BEE9E6C27B04801006BDE38 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9E6B27B04801006BDE38 /* MainView.swift */; };
 		1BEE9E6E27B166EA006BDE38 /* SunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9E6D27B166EA006BDE38 /* SunView.swift */; };
+		1BEE9E9D27B42E3E006BDE38 /* CustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9E9C27B42E3E006BDE38 /* CustomGridView.swift */; };
+		1BEE9E9F27B4371B006BDE38 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9E9E27B4371B006BDE38 /* Award.swift */; };
+		1BEE9EA127B43998006BDE38 /* VerticalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9EA027B43998006BDE38 /* VerticalGridView.swift */; };
+		1BEE9EA327B43BF3006BDE38 /* HorizontalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEE9EA227B43BF3006BDE38 /* HorizontalGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1BEE9E5027B03247006BDE38 /* Lesson#6SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson#6SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BEE9E5327B03247006BDE38 /* Lesson_6SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_6SwiftUIApp.swift; sourceTree = "<group>"; };
+		1BEE9E5027B03247006BDE38 /* CustomGridSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomGridSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BEE9E5327B03247006BDE38 /* CustomGridSUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridSUI.swift; sourceTree = "<group>"; };
 		1BEE9E5527B03247006BDE38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1BEE9E5727B03248006BDE38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BEE9E5A27B03248006BDE38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -31,6 +35,10 @@
 		1BEE9E6927B04440006BDE38 /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
 		1BEE9E6B27B04801006BDE38 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		1BEE9E6D27B166EA006BDE38 /* SunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunView.swift; sourceTree = "<group>"; };
+		1BEE9E9C27B42E3E006BDE38 /* CustomGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridView.swift; sourceTree = "<group>"; };
+		1BEE9E9E27B4371B006BDE38 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		1BEE9EA027B43998006BDE38 /* VerticalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGridView.swift; sourceTree = "<group>"; };
+		1BEE9EA227B43BF3006BDE38 /* HorizontalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +55,7 @@
 		1BEE9E4727B03247006BDE38 = {
 			isa = PBXGroup;
 			children = (
-				1BEE9E5227B03247006BDE38 /* Lesson#6SwiftUI */,
+				1BEE9E5227B03247006BDE38 /* CustomGridSUI */,
 				1BEE9E5127B03247006BDE38 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,18 +63,22 @@
 		1BEE9E5127B03247006BDE38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BEE9E5027B03247006BDE38 /* Lesson#6SwiftUI.app */,
+				1BEE9E5027B03247006BDE38 /* CustomGridSUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1BEE9E5227B03247006BDE38 /* Lesson#6SwiftUI */ = {
+		1BEE9E5227B03247006BDE38 /* CustomGridSUI */ = {
 			isa = PBXGroup;
 			children = (
-				1BEE9E5327B03247006BDE38 /* Lesson_6SwiftUIApp.swift */,
+				1BEE9E5327B03247006BDE38 /* CustomGridSUI.swift */,
 				1BEE9E5527B03247006BDE38 /* ContentView.swift */,
 				1BEE9E6B27B04801006BDE38 /* MainView.swift */,
 				1BEE9E6327B03C0A006BDE38 /* AwardsView.swift */,
+				1BEE9E9C27B42E3E006BDE38 /* CustomGridView.swift */,
+				1BEE9EA027B43998006BDE38 /* VerticalGridView.swift */,
+				1BEE9EA227B43BF3006BDE38 /* HorizontalGridView.swift */,
+				1BEE9E9E27B4371B006BDE38 /* Award.swift */,
 				1BEE9E6527B03C24006BDE38 /* GradientRectangles.swift */,
 				1BEE9E6727B03F03006BDE38 /* PathView.swift */,
 				1BEE9E6927B04440006BDE38 /* CurvesView.swift */,
@@ -74,7 +86,7 @@
 				1BEE9E5727B03248006BDE38 /* Assets.xcassets */,
 				1BEE9E5927B03248006BDE38 /* Preview Content */,
 			);
-			path = "Lesson#6SwiftUI";
+			path = CustomGridSUI;
 			sourceTree = "<group>";
 		};
 		1BEE9E5927B03248006BDE38 /* Preview Content */ = {
@@ -88,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BEE9E4F27B03247006BDE38 /* Lesson#6SwiftUI */ = {
+		1BEE9E4F27B03247006BDE38 /* CustomGridSUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BEE9E5E27B03248006BDE38 /* Build configuration list for PBXNativeTarget "Lesson#6SwiftUI" */;
+			buildConfigurationList = 1BEE9E5E27B03248006BDE38 /* Build configuration list for PBXNativeTarget "CustomGridSUI" */;
 			buildPhases = (
 				1BEE9E4C27B03247006BDE38 /* Sources */,
 				1BEE9E4D27B03247006BDE38 /* Frameworks */,
@@ -100,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = "Lesson#6SwiftUI";
+			name = CustomGridSUI;
 			productName = "Lesson#6SwiftUI";
-			productReference = 1BEE9E5027B03247006BDE38 /* Lesson#6SwiftUI.app */;
+			productReference = 1BEE9E5027B03247006BDE38 /* CustomGridSUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1BEE9E4B27B03247006BDE38 /* Build configuration list for PBXProject "Lesson#6SwiftUI" */;
+			buildConfigurationList = 1BEE9E4B27B03247006BDE38 /* Build configuration list for PBXProject "CustomGridSUI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BEE9E4F27B03247006BDE38 /* Lesson#6SwiftUI */,
+				1BEE9E4F27B03247006BDE38 /* CustomGridSUI */,
 			);
 		};
 /* End PBXProject section */
@@ -155,14 +167,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BEE9E9D27B42E3E006BDE38 /* CustomGridView.swift in Sources */,
 				1BEE9E6A27B04440006BDE38 /* CurvesView.swift in Sources */,
 				1BEE9E6E27B166EA006BDE38 /* SunView.swift in Sources */,
+				1BEE9E9F27B4371B006BDE38 /* Award.swift in Sources */,
 				1BEE9E6C27B04801006BDE38 /* MainView.swift in Sources */,
+				1BEE9EA127B43998006BDE38 /* VerticalGridView.swift in Sources */,
 				1BEE9E6827B03F03006BDE38 /* PathView.swift in Sources */,
 				1BEE9E6427B03C0A006BDE38 /* AwardsView.swift in Sources */,
 				1BEE9E6627B03C24006BDE38 /* GradientRectangles.swift in Sources */,
 				1BEE9E5627B03247006BDE38 /* ContentView.swift in Sources */,
-				1BEE9E5427B03247006BDE38 /* Lesson_6SwiftUIApp.swift in Sources */,
+				1BEE9EA327B43BF3006BDE38 /* HorizontalGridView.swift in Sources */,
+				1BEE9E5427B03247006BDE38 /* CustomGridSUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lesson#6SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CustomGridSUI/Preview Content\"";
 				DEVELOPMENT_TEAM = YU7DP9Q269;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -306,8 +322,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.private.Lesson-6SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.private.CustomGridSUI;
+				PRODUCT_NAME = CustomGridSUI;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,7 +337,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lesson#6SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CustomGridSUI/Preview Content\"";
 				DEVELOPMENT_TEAM = YU7DP9Q269;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -335,8 +351,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.private.Lesson-6SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.private.CustomGridSUI;
+				PRODUCT_NAME = CustomGridSUI;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,7 +362,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BEE9E4B27B03247006BDE38 /* Build configuration list for PBXProject "Lesson#6SwiftUI" */ = {
+		1BEE9E4B27B03247006BDE38 /* Build configuration list for PBXProject "CustomGridSUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BEE9E5C27B03248006BDE38 /* Debug */,
@@ -355,7 +371,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BEE9E5E27B03248006BDE38 /* Build configuration list for PBXNativeTarget "Lesson#6SwiftUI" */ = {
+		1BEE9E5E27B03248006BDE38 /* Build configuration list for PBXNativeTarget "CustomGridSUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BEE9E5F27B03248006BDE38 /* Debug */,

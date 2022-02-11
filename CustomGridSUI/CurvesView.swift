@@ -1,6 +1,6 @@
 //
 //  CurvesView.swift
-//  Lesson#6SwiftUI
+//  CustomGridSUI
 //
 //  Created by Nikita Batrakov on 06.02.2022.
 //
